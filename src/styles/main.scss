@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/header";
+// @import "partials/breadcrumbs";
+@import "partials/common";
+@import "partials/service";
+@import "partials/services-list";
+@import "partials/call-to-action";
+@import "partials/legal";
+@import "partials/footer";
+@import "partials/forms";
+@import "partials/order";
+@import "partials/home";
+// @import "partials/consultation";
+@import "partials/price";
+@import "partials/contacts";
+@import "partials/article";
+
+// $owl-image-path: "~owl.carousel/src/img/";
+
+$owl-image-path: "/node_modules/owl.carousel/src/img/";
+@import '~owl.carousel/src/scss/owl.carousel';
+@import '~owl.carousel/src/scss/owl.theme.default';
